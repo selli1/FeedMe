@@ -1,0 +1,192 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "(%lld reviews)" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld review)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "(%lld reviews)"
+                }
+              }
+            }
+          }
+        },
+        "es-419" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld reseña)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld reseñas)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%.1f" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%.1f"
+          }
+        }
+      }
+    },
+    "%.2f mi" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%.2f mi"
+          }
+        }
+      }
+    },
+    "Address" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dirección"
+          }
+        }
+      }
+    },
+    "Close Spots" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lugares Cercanos"
+          }
+        }
+      }
+    },
+    "Closest" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mas cercano"
+          }
+        }
+      }
+    },
+    "Hours" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horas"
+          }
+        }
+      }
+    },
+    "Phone" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teléfono"
+          }
+        }
+      }
+    },
+    "Pick for me" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige por mi"
+          }
+        }
+      }
+    },
+    "powered by" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "desarrollada por"
+          }
+        }
+      }
+    },
+    "Price" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Precio"
+          }
+        }
+      }
+    },
+    "Restaurants" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurantes"
+          }
+        }
+      }
+    },
+    "Spin" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Girar"
+          }
+        }
+      }
+    },
+    "Top Rated" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor valorado"
+          }
+        }
+      }
+    },
+    "Top Spots" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejores Lugares"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

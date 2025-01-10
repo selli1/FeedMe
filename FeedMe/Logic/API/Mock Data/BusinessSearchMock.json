@@ -1,0 +1,116 @@
+
+{
+  "businesses": [
+    {
+      "id": "ts2WASctpBwC-0lFrDdlVQ",
+      "alias": "panera-bread-atlanta-6",
+      "name": "Panera Bread",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LAdQdSEHd-UJC9WVxpwUAQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/panera-bread-atlanta-6?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 113,
+      "categories": [
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        },
+        {
+          "alias": "salad",
+          "title": "Salad"
+        },
+        {
+          "alias": "soup",
+          "title": "Soup"
+        }
+      ],
+      "rating": 2.4,
+      "coordinates": {
+        "latitude": 33.84592030030037,
+        "longitude": -84.2571584880352
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "2100 Henderson Mill Rd",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30345",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "2100 Henderson Mill Rd",
+          "Atlanta, GA 30345"
+        ]
+      },
+      "phone": "+17704144664",
+      "display_phone": "(770) 414-4664",
+      "distance": 16149.83168250235,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0630",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0630",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0630",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0630",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0630",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.panerabread.com/en-us/menu.html?utm_source=yelp&utm_medium=local&utm_campaign=dpm-dist&utm_term=202563&utm_content=menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    }
+  ],
+  "total": 1,
+  "region": {
+    "center": {
+      "longitude": 84.3885,
+      "latitude": 33.7501
+    }
+  }
+}

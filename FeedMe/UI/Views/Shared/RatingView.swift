@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// View to display rating text
 struct RatingView: View {
     let rating: Double
     let reviewCount: Int

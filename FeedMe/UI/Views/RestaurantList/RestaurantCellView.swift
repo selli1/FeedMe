@@ -13,18 +13,19 @@ struct RestaurantCellView: View {
     var body: some View {
         VStack(spacing: 0) {
             VStack(alignment: .leading) {
+                // Adding title view
                 Text(restaurant.name)
                     .foregroundStyle(Color.primary)
                     .fontWeight(.bold)
                     .lineLimit(1)
                     .padding(.bottom, 12)
-                
+                // Adding image view
                 HStack(alignment: .top, spacing: 0) {
                     AsyncImageView(url: URL(string: restaurant.imageURL ?? ""))
                         .frame(width: 100, height: 75)
                         .padding(.trailing, 16)
                         .clipped()
-                    
+                    // Adding detail text
                     VStack(alignment: .leading, spacing: 6) {
                         if let distance = restaurant.distance {
                             DistanceView(distance: distance)

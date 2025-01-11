@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PoweredByYelpView: View {
-        
     var body: some View {
         HStack {
             Text("powered by")

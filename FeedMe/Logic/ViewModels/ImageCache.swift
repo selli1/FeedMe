@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom image cache for downloading and caching images into URLCache
 class ImageCache {
     
     static let shared = ImageCache()

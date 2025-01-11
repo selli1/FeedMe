@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Class to hold observable properties needed for navigation
 @Observable
 class Router {
     var listTabNavigationPath: NavigationPath = NavigationPath()

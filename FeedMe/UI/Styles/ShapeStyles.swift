@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Convenience definitions for reused shape styles
+
 struct CustomGradient: ShapeStyle, View {
     func resolve(in environment: EnvironmentValues) -> some ShapeStyle {
         LinearGradient(gradient: Gradient(colors: [.pink, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing)

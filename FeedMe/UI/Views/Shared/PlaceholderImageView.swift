@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Image to diplay when downloaded image does not exist
 struct PlaceholderImageView: View {
     var body: some View {
         Image(systemName: "photo.fill")

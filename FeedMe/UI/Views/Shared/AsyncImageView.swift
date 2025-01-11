@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// View responsible for fetching diplaying network images
 struct AsyncImageView: View {
     let url: URL?
     
@@ -15,21 +16,26 @@ struct AsyncImageView: View {
 
     var body: some View {
         ZStack {
+            // Setting background
             Color.gray
             
             Group {
+                // Display image if it exists
                 if let image {
                     image
                         .resizable()
                         .scaledToFill()
+                    // Show loading if loading
                 } else if isLoading {
                     ProgressView()
                         .padding()
+                    // Else show progress view
                 } else {
                     PlaceholderImageView()
                 }
             }
             .task {
+                // download the image
                 guard let url else { return }
                 defer { isLoading = false }
                 isLoading = true

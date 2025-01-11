@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Sort options enum for picker with localizable strings
 enum SortOption: LocalizedStringResource, CaseIterable, Identifiable {
     case rating = "Top Rated"
     case distance = "Closest"
@@ -23,6 +24,7 @@ enum SortOption: LocalizedStringResource, CaseIterable, Identifiable {
     }
 }
 
+// Picker for restaurant sorting criteria
 struct SortOptionsPicker: View {
     @Binding var selectedCategory: SortOption
     var body: some View {

@@ -8,15 +8,19 @@
 import Foundation
 import CoreLocation
 
+// Observable class for managing user's location
+
 @Observable
 class LocationManager: NSObject, CLLocationManagerDelegate {
     private let locationManager: CLLocationManager = CLLocationManager()
     
     var location: CLLocationCoordinate2D?
+    var error: Error?
     
     override init() {
         super.init()
         locationManager.delegate = self
+        // Request permission to use user location
         locationManager.requestWhenInUseAuthorization()
     }
     
@@ -26,6 +30,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         }
     }
     
+    // Setting the observable location property on callback from CLLocationManagerDelegate
     internal func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         location = locations.first?.coordinate
     }
@@ -43,6 +48,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         } else {
             print("other error:", error.localizedDescription)
         }
+        self.error = error
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {

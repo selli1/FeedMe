@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Reusable cell for displaying business info
 struct DetailCellView: View {
     let title: LocalizedStringResource
     let values: [String]
@@ -15,8 +16,10 @@ struct DetailCellView: View {
         VStack(spacing: 0) {
             HStack {
                 VStack(alignment: .leading, spacing: 10) {
+                    // Displaying title
                     Text(title)
                         .fontWeight(.bold)
+                    // Displaying multiline values
                     VStack(alignment: .leading) {
                         ForEach(values, id: \.self) { value in
                             Text(value)
@@ -30,6 +33,7 @@ struct DetailCellView: View {
             }
             .background(ThinMaterial())
         }
+        // Adding divider to bottom of cell
         Divider()
             .foregroundStyle(Color.clear)
             .frame(height: 1.0)

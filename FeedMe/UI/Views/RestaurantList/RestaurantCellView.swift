@@ -20,23 +20,10 @@ struct RestaurantCellView: View {
                     .padding(.bottom, 12)
                 
                 HStack(alignment: .top, spacing: 0) {
-                    Group {
-                        if let imageURL = restaurant.imageURL {
-                            AsyncImage(url: URL(string: imageURL)) { image in
-                                image
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: 100, height: 75)
-                                    .clipped()
-                            } placeholder: {
-                                PlaceholderImageView()
-                            }
-                        } else {
-                            PlaceholderImageView()
-                        }
-                    }
-                    .frame(width: 100, height: 75)
-                    .padding(.trailing, 16)
+                    AsyncImageView(url: URL(string: restaurant.imageURL ?? ""))
+                        .frame(width: 100, height: 75)
+                        .padding(.trailing, 16)
+                        .clipped()
                     
                     VStack(alignment: .leading, spacing: 6) {
                         if let distance = restaurant.distance {
@@ -51,7 +38,7 @@ struct RestaurantCellView: View {
                 }
             }
             .padding(16)
-            .background(.regularMaterial.blendMode(.luminosity))
+            .background(ThinMaterial())
             Divider()
                 .foregroundStyle(Color.clear)
                 .frame(height: 1.0)

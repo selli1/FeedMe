@@ -7,14 +7,7 @@
 
 import SwiftUI
 
-enum TabIdentifier: Hashable {
-    case list
-    case spin
-}
-
 @Observable
 class Router {
-    var selectedTab: TabIdentifier = .list
     var listTabNavigationPath: NavigationPath = NavigationPath()
-    var spinTabNavigationPath: NavigationPath = NavigationPath()
 }

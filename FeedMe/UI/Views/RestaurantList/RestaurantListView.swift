@@ -12,7 +12,7 @@ struct RestaurantListView: View {
     @Environment(RestaurantsViewModel.self) var restaurantsViewModel
             
     @State private var sortSelection: SortOption = .rating
-    
+
     var body: some View {
         VStack(spacing: 0) {
             let restaurants = sortSelection == .rating ?
@@ -22,11 +22,10 @@ struct RestaurantListView: View {
             VStack(spacing: 0) {
                 SortOptionsPicker(selectedCategory: $sortSelection)
                 .padding()
-                .background(.ultraThickMaterial.blendMode(.luminosity))
+                .background(ThickMaterial())
                 
                 ScrollView {
                     LazyVStack(spacing: 0) {
-                        
                         ForEach(restaurants) { restaurant in
                             NavigationLink(value: restaurant) {
                                 RestaurantCellView(restaurant: restaurant)
@@ -34,22 +33,16 @@ struct RestaurantListView: View {
                         }
                     }
                 }
-                .overlay {
-                    if restaurants.isEmpty {
-                        Color.clear
-                            .overlay(.regularMaterial.blendMode(.luminosity))
-                    }
-                }
+                .ignoresSafeArea()
             }
+            .background(ThinMaterial())
         }
+        .background(CustomGradient())
         .navigationDestination(for: Business.self) { business in
             RestaurantDetailView(restaurant: business)
         }
         .navigationTitle(String(localized: sortSelection.titleText))
-        .toolbarBackground(
-            .ultraThickMaterial.blendMode(.luminosity),
-            for: .navigationBar)
+        .toolbarBackground(ThickMaterial(), for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
-        .background(CustomGradient())
     }
 }

@@ -14,15 +14,12 @@ struct ContentView: View {
     @State var locationManager: LocationManager = LocationManager()
     
     init() {
-        let megaByte = 1024 * 1024
-        let cache = URLCache(memoryCapacity: 100 * megaByte,
-                                diskCapacity: 500 * megaByte,
-                                diskPath: "myCache")
-        URLCache.shared = cache
-        
-        print("Started")
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground()
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        UINavigationBar.appearance().compactAppearance = appearance
     }
-    
     var body: some View {
         NavigationStack(path: $router.listTabNavigationPath) {
             RestaurantListView()

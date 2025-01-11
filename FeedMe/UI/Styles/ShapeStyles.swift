@@ -12,3 +12,21 @@ struct CustomGradient: ShapeStyle, View {
         LinearGradient(gradient: Gradient(colors: [.pink, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing)
     }
 }
+
+struct ThinMaterial: ShapeStyle, View {
+    func resolve(in environment: EnvironmentValues) -> some ShapeStyle {
+        .thinMaterial.blendMode(.luminosity)
+    }
+}
+
+struct RegularMaterial: ShapeStyle, View {
+    func resolve(in environment: EnvironmentValues) -> some ShapeStyle {
+        .regularMaterial.blendMode(.luminosity)
+    }
+}
+
+struct ThickMaterial: ShapeStyle, View {
+    func resolve(in environment: EnvironmentValues) -> some ShapeStyle {
+        .thickMaterial.blendMode(.luminosity)
+    }
+}

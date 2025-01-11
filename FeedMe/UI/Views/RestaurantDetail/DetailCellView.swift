@@ -28,7 +28,7 @@ struct DetailCellView: View {
                 
                 Spacer()
             }
-            .background(.regularMaterial.blendMode(.luminosity))
+            .background(ThinMaterial())
         }
         Divider()
             .foregroundStyle(Color.clear)

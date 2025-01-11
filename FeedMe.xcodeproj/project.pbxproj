@@ -36,13 +36,15 @@
 		B06CD5CE2D3072D500DC4D16 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5CD2D3072C300DC4D16 /* StarRatingView.swift */; };
 		B06CD5D02D309A9600DC4D16 /* DetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5CF2D309A8E00DC4D16 /* DetailCellView.swift */; };
 		B06CD5D22D30A05A00DC4D16 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5D12D30A05000DC4D16 /* DetailHeaderView.swift */; };
-		B06CD5D42D30A1A800DC4D16 /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5D32D30A19A00DC4D16 /* CustomGradient.swift */; };
+		B06CD5D42D30A1A800DC4D16 /* ShapeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5D32D30A19A00DC4D16 /* ShapeStyles.swift */; };
 		B06CD5DC2D30BC3D00DC4D16 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5DB2D30BC3100DC4D16 /* LocationManager.swift */; };
 		B06CD5E02D31310300DC4D16 /* SortOptionsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CD5DF2D3130F800DC4D16 /* SortOptionsPicker.swift */; };
 		B06CD5E22D315D3A00DC4D16 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B06CD5E12D315D3A00DC4D16 /* Localizable.xcstrings */; };
 		B09AE9562D319A77005054C3 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09AE9552D319A6A005054C3 /* DoubleExtension.swift */; };
 		B0D57DB22D31CCC400E59CE9 /* PrintOverride.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D57DB12D31CCBB00E59CE9 /* PrintOverride.swift */; };
 		B0D57DB42D31CD2200E59CE9 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D57DB32D31CD1100E59CE9 /* Decoder.swift */; };
+		B0D57DCE2D31EB8900E59CE9 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D57DCD2D31EB8100E59CE9 /* ImageCache.swift */; };
+		B0D57DD02D31F9DF00E59CE9 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D57DCF2D31F9D800E59CE9 /* AsyncImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,13 +97,15 @@
 		B06CD5CD2D3072C300DC4D16 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 		B06CD5CF2D309A8E00DC4D16 /* DetailCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCellView.swift; sourceTree = "<group>"; };
 		B06CD5D12D30A05000DC4D16 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
-		B06CD5D32D30A19A00DC4D16 /* CustomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
+		B06CD5D32D30A19A00DC4D16 /* ShapeStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStyles.swift; sourceTree = "<group>"; };
 		B06CD5DB2D30BC3100DC4D16 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B06CD5DF2D3130F800DC4D16 /* SortOptionsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOptionsPicker.swift; sourceTree = "<group>"; };
 		B06CD5E12D315D3A00DC4D16 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		B09AE9552D319A6A005054C3 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		B0D57DB12D31CCBB00E59CE9 /* PrintOverride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintOverride.swift; sourceTree = "<group>"; };
 		B0D57DB32D31CD1100E59CE9 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		B0D57DCD2D31EB8100E59CE9 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B0D57DCF2D31F9D800E59CE9 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -233,6 +237,7 @@
 		B06CD5C02D3066D300DC4D16 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B0D57DCF2D31F9D800E59CE9 /* AsyncImageView.swift */,
 				B06CD5CD2D3072C300DC4D16 /* StarRatingView.swift */,
 				B06CD5CB2D306E1E00DC4D16 /* PlaceholderImageView.swift */,
 				B06CD5C32D30672500DC4D16 /* DistanceView.swift */,
@@ -274,7 +279,7 @@
 		B06CD5CA2D306CA100DC4D16 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				B06CD5D32D30A19A00DC4D16 /* CustomGradient.swift */,
+				B06CD5D32D30A19A00DC4D16 /* ShapeStyles.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 		B06CD5DA2D30B47F00DC4D16 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B0D57DCD2D31EB8100E59CE9 /* ImageCache.swift */,
 				B06CD5DB2D30BC3100DC4D16 /* LocationManager.swift */,
 				B06CD5A52D2FF37600DC4D16 /* Router.swift */,
 				B06CD59D2D2D71E600DC4D16 /* RestaurantsViewModel.swift */,
@@ -455,7 +461,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06CD5D42D30A1A800DC4D16 /* CustomGradient.swift in Sources */,
+				B0D57DCE2D31EB8900E59CE9 /* ImageCache.swift in Sources */,
+				B06CD5D42D30A1A800DC4D16 /* ShapeStyles.swift in Sources */,
 				B06CD59E2D2D725000DC4D16 /* RestaurantsViewModel.swift in Sources */,
 				B06CD5E02D31310300DC4D16 /* SortOptionsPicker.swift in Sources */,
 				B06CD5B92D2FF77500DC4D16 /* RestaurantListView.swift in Sources */,
@@ -467,6 +474,7 @@
 				B06CD5C22D3066F500DC4D16 /* RatingView.swift in Sources */,
 				B06CD5762D2CCBC400DC4D16 /* YelpMockAPI.swift in Sources */,
 				B06CD5C42D30672A00DC4D16 /* DistanceView.swift in Sources */,
+				B0D57DD02D31F9DF00E59CE9 /* AsyncImageView.swift in Sources */,
 				B06CD5CE2D3072D500DC4D16 /* StarRatingView.swift in Sources */,
 				B06CD5952D2CDF7E00DC4D16 /* OpenHours.swift in Sources */,
 				B06CD5DC2D30BC3D00DC4D16 /* LocationManager.swift in Sources */,

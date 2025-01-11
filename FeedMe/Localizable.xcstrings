@@ -104,6 +104,15 @@
         }
       }
     },
+    "Location Access Failed" : {
+
+    },
+    "Network Call Failed" : {
+
+    },
+    "OK" : {
+
+    },
     "Phone" : {
       "localizations" : {
         "es-419" : {
@@ -124,6 +133,12 @@
           }
         }
       }
+    },
+    "Please check your network access or try again later." : {
+
+    },
+    "Please check your settings enable location access." : {
+
     },
     "powered by" : {
       "localizations" : {

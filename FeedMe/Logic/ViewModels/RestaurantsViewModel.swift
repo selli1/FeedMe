@@ -15,6 +15,7 @@ class RestaurantsViewModel {
     
     // Container object for business (restaurant) data
     var searchResponse: BusinessSearchResponse?
+    var error: Error?
     
     // Initializer to allow for dependency injection of a data provider
     init(api: YelpDataProvider = YelpAPI()) {
@@ -22,10 +23,11 @@ class RestaurantsViewModel {
     }
     // Request business data from API and store to searchResponse object
     func fetchRestaurants(_ location: Coordinates) async {
+        self.error = nil
         do {
             searchResponse = try await api.searchBusinesses(location)
         } catch {
-            print(error.localizedDescription)
+            self.error = error
         }
     }
     

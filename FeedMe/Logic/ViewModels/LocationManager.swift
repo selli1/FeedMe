@@ -27,6 +27,8 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     func obtainUserLocation() {
         if locationManager.authorizationStatus == .authorizedWhenInUse || locationManager.authorizationStatus == .authorizedAlways {
             locationManager.requestLocation()
+        } else {
+            error = CLError.init(.denied)
         }
     }
     

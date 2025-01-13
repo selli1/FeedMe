@@ -10,12 +10,13 @@ import Foundation
 struct RestaurantCellView: View {
     let restaurant: Business
     
+    // Reusable cell view for displaying restaurant info
     var body: some View {
         VStack(spacing: 0) {
             VStack(alignment: .leading) {
                 // Adding title view
                 Text(restaurant.name)
-                    .foregroundStyle(Color.primary)
+                    .foregroundStyle(Color.secondary)
                     .fontWeight(.bold)
                     .lineLimit(1)
                     .padding(.bottom, 12)
@@ -39,7 +40,7 @@ struct RestaurantCellView: View {
                 }
             }
             .padding(16)
-            .background(ThinMaterial())
+            .background(ThickMaterial())
             Divider()
                 .foregroundStyle(Color.clear)
                 .frame(height: 1.0)

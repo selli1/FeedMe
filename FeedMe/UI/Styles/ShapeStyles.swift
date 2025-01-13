@@ -11,7 +11,7 @@ import SwiftUI
 
 struct CustomGradient: ShapeStyle, View {
     func resolve(in environment: EnvironmentValues) -> some ShapeStyle {
-        LinearGradient(gradient: Gradient(colors: [.pink, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing)
+        LinearGradient(gradient: Gradient(colors: [.red, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing)
     }
 }
 

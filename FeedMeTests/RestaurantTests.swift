@@ -21,26 +21,32 @@ struct RestaurantTests {
         // when
         await viewModel.fetchRestaurants(location)
         // then
-        #expect(viewModel.searchResponse?.businesses.count == 1)
+        #expect(viewModel.searchResponse?.businesses.count == 50)
     }
     
     @Test func closeRestaurants() async throws {
         // given
         await viewModel.fetchRestaurants(location)
-        let expectedName = "ts2WASctpBwC-0lFrDdlVQ"
+        let expectedFirstObjectId = "0n0C5zCqhjG2XDSOhlQ4Vg"
+        let expectedLastObjectId = "dfL1KYHtcs6YaFVx-nZTdQ"
         // when
-        let restaurant = viewModel.closeRestaurants().first
+        let firstRestaurant = viewModel.closeRestaurants().first
+        let lastRestaurant = viewModel.closeRestaurants().last
         //then
-        #expect(restaurant?.id == expectedName)
+        #expect(firstRestaurant?.id == expectedFirstObjectId)
+        #expect(lastRestaurant?.id == expectedLastObjectId)
     }
     
     @Test func topRestaurants() async throws {
         // given
         await viewModel.fetchRestaurants(location)
-        let expectedId = "ts2WASctpBwC-0lFrDdlVQ"
+        let expectedFirstObjectId = "0n0C5zCqhjG2XDSOhlQ4Vg"
+        let expectedLastObjectId = "QW3anlt1nJ9aNkdQAV-Ifw"
         // when
-        let restaurant = viewModel.topRestaurants().first
+        let firstRestaurant = viewModel.topRestaurants().first
+        let lastRestaurant = viewModel.topRestaurants().last
         //then
-        #expect(restaurant?.id == expectedId)
+        #expect(firstRestaurant?.id == expectedFirstObjectId)
+        #expect(lastRestaurant?.id == expectedLastObjectId)
     }
 }

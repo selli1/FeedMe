@@ -18,6 +18,7 @@ struct DetailCellView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     // Displaying title
                     Text(title)
+                        .foregroundStyle(Color.secondary)
                         .fontWeight(.bold)
                     // Displaying multiline values
                     VStack(alignment: .leading) {
@@ -31,9 +32,8 @@ struct DetailCellView: View {
                 
                 Spacer()
             }
-            .background(ThinMaterial())
+            .background(ThickMaterial())
         }
-        // Adding divider to bottom of cell
         Divider()
             .foregroundStyle(Color.clear)
             .frame(height: 1.0)

@@ -34,5 +34,6 @@ struct SortOptionsPicker: View {
            }
         }
         .pickerStyle(.segmented)
+        .accessibilityLabel("Segmented picker control")
     }
 }

@@ -10,6 +10,7 @@ import Foundation
 class Decoder {
     private let decoder = JSONDecoder()
     
+    // Reusable decode function making use of using generics 
     func decode<T: Decodable>(_ type: T.Type, from data: Data) throws -> T {
         do {
             return try decoder.decode(type, from: data)
@@ -21,6 +22,7 @@ class Decoder {
         }
     }
     
+    // Function for debugging parsing errors
     private func printDecodingError(_ error: DecodingError, for data: Data) {
         switch error {
         case.keyNotFound(let key, let context):

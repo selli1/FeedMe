@@ -74,6 +74,16 @@
         }
       }
     },
+    "Business Info" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información comercial"
+          }
+        }
+      }
+    },
     "Close Spots" : {
       "localizations" : {
         "es-419" : {
@@ -105,13 +115,34 @@
       }
     },
     "Location Access Failed" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al acceder a la ubicación"
+          }
+        }
+      }
     },
-    "Network Call Failed" : {
-
+    "No Results Found" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontraron resultados"
+          }
+        }
+      }
     },
     "OK" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
     },
     "Phone" : {
       "localizations" : {
@@ -123,22 +154,25 @@
         }
       }
     },
-    "Pick for me" : {
-      "extractionState" : "stale",
+    "Please check your internet connection and try again" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elige por mi"
+            "value" : "Por favor verifique su conexión a Internet y vuelva a intentarlo"
           }
         }
       }
     },
-    "Please check your network access or try again later." : {
-
-    },
-    "Please check your settings enable location access." : {
-
+    "Please check your settings to enable location access." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifique su configuración para habilitar el acceso a la ubicación."
+          }
+        }
+      }
     },
     "powered by" : {
       "localizations" : {
@@ -160,27 +194,61 @@
         }
       }
     },
-    "Restaurants" : {
-      "extractionState" : "stale",
+    "Restaurant Lookup Failed" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Restaurantes"
+            "value" : "La búsqueda del restaurante falló"
           }
         }
       }
     },
-    "Spin" : {
-      "extractionState" : "stale",
+    "Restaurants near me" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Girar"
+            "value" : "Restaurantes cerca de mi"
           }
         }
       }
+    },
+    "Search" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
+        }
+      }
+    },
+    "Search ..." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar …"
+          }
+        }
+      }
+    },
+    "Search bar" : {
+
+    },
+    "Search for location" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar ubicación"
+          }
+        }
+      }
+    },
+    "Segmented picker control" : {
+
     },
     "Top Rated" : {
       "localizations" : {
@@ -198,6 +266,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mejores Lugares"
+          }
+        }
+      }
+    },
+    "We could not complete your request right now. Please try again later." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No pudimos completar tu solicitud en este momento. Inténtalo nuevamente más tarde."
+          }
+        }
+      }
+    },
+    "Yelp" : {
+
+    },
+    "You have reached your maximum number of requests for today. Please try again tomorrow." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Has alcanzado el número máximo de solicitudes para hoy. Vuelve a intentarlo mañana."
           }
         }
       }

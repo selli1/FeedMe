@@ -21,8 +21,6 @@ struct RestaurantDetailView: View {
         let overlapHeight: CGFloat = 20
         
         ZStack(alignment: .top) {
-            // Setting Background
-            CustomGradient().overlay(ThinMaterial())
             // Adding image view and making it sticky / stretchy
             AsyncImageView(url: URL(string: restaurant.imageURL ?? ""))
                 .frame(maxWidth: UIScreen.main.bounds.width)
@@ -35,34 +33,17 @@ struct RestaurantDetailView: View {
                         .padding(.bottom, overlapHeight)
                 }
 
-            ScrollView(.vertical) {
-                // Spacer to make scrollview content appear below sticky header
+            ScrollView {
+                // Spacer to push scrollview content below sticky header
                 Spacer()
                     .frame(height: headerHeight)
-                // Populating various business info cells
                 VStack(spacing: 0) {
-                    if let hours = restaurant.businessHours?.first,
-                       let hoursString = hours.hoursDisplayString {
-                        let values: [String] = [hours.isOpenNow ? "Open now" : "Closed Now", hoursString]
-                        DetailCellView(title: "Hours", values: values)
-                    }
-                    
-                    if let price = restaurant.price {
-                        DetailCellView(title: "Price", values: [price])
-                    }
-                    
-                    if restaurant.displayPhone != "" {
-                        DetailCellView(title: "Phone", values: [restaurant.displayPhone])
-                    }
-                    
-                    if !restaurant.location.displayAddress.isEmpty {
-                        DetailCellView(title: "Address", values: restaurant.location.displayAddress)
-                    }
+                    DetailListView(restaurant: restaurant)
                     // Placeholder cell to take up empty bottom space
-                    Color.clear.overlay(ThinMaterial())
+                    Color.clear.overlay(ThickMaterial())
                         .frame(height: emptySpace)
                 }
-                .background(CustomGradient().overlay(ThinMaterial()))
+                .background(CustomGradient().overlay(.thinMaterial))
             }
             // Observing scrollview geometry for managing sticky header and placeholder cell
             .onScrollGeometryChange(for: CGFloat.self, of: { geo in
@@ -74,8 +55,10 @@ struct RestaurantDetailView: View {
                 return geo.containerSize.height - geo.contentSize.height
             }, action: { new, old in
                 emptySpace = new >= 0 ? new : 0
+                print(new)
             })
         }
+        .background(CustomGradient().overlay(ThickMaterial()))
         .ignoresSafeArea()
     }
 }

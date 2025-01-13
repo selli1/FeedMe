@@ -24,36 +24,22 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
     }
     
-    func obtainUserLocation() {
-        if locationManager.authorizationStatus == .authorizedWhenInUse || locationManager.authorizationStatus == .authorizedAlways {
-            locationManager.requestLocation()
-        } else {
-            error = CLError.init(.denied)
-        }
-    }
-    
     // Setting the observable location property on callback from CLLocationManagerDelegate
     internal func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         location = locations.first?.coordinate
     }
     
     internal func locationManager(_ manager: CLLocationManager, didFailWithError error: any Error) {
-        if let clError = error as? CLError {
-            switch clError.code {
-            case CLError.locationUnknown:
-                print("location unknown")
-            case CLError.denied:
-                print("denied")
-            default:
-                print("other Core Location error")
-            }
-        } else {
-            print("other error:", error.localizedDescription)
-        }
         self.error = error
     }
     
-    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        obtainUserLocation()
+    // Requesting location or setting an error based on authorization status changes
+    internal func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        if manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways ||
+            manager.authorizationStatus == .restricted {
+            manager.requestLocation()
+        } else if manager.authorizationStatus == .denied {
+            self.error = CLError.init(.denied)
+        }
     }
 }

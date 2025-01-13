@@ -14,29 +14,48 @@ class YelpAPI: YelpDataProvider {
     
     private let decoder = Decoder()
     
-    // Implementing the required searchBusiness function from the YelpDataProvider protocol
-    func searchBusinesses(_ location: Coordinates) async throws -> BusinessSearchResponse {
+    // Implementing the required searchBusiness by coordinates function from the YelpDataProvider protocol
+    func searchBusinesses(_ coordinates: Coordinates) async throws -> BusinessSearchResponse {
         let urlString = baseURL + "businesses/search"
         guard var url = URL(string: urlString) else { throw URLError(.badURL) }
         // Building query items
         let queryItems: [URLQueryItem] = [
-            URLQueryItem(name: "latitude", value: "\(location.latitude)"),
-            URLQueryItem(name: "longitude", value: "\(location.longitude)"),
+            URLQueryItem(name: "latitude", value: "\(coordinates.latitude)"),
+            URLQueryItem(name: "longitude", value: "\(coordinates.longitude)"),
             URLQueryItem(name: "limit", value: "50")
         ]
         url.append(queryItems: queryItems)
-        
         // Prepare request with standard parameters
         let request = prepareRequest(url)
-        
+        // Make the request
+        return try await requestObject(of: BusinessSearchResponse.self, for: request)
+    }
+    // Implementing the required searchBusiness by locationName function from the YelpDataProvider protocol
+    func searchBusinesses(_ locationName: String) async throws -> BusinessSearchResponse {
+        let urlString = baseURL + "businesses/search"
+        guard var url = URL(string: urlString) else { throw URLError(.badURL) }
+        // Building query items
+        let queryItems: [URLQueryItem] = [
+            URLQueryItem(name: "location", value: locationName),
+            URLQueryItem(name: "limit", value: "50")
+        ]
+        url.append(queryItems: queryItems)
+        // Prepare request with standard parameters
+        let request = prepareRequest(url)
+        // Make the request
+        return try await requestObject(of: BusinessSearchResponse.self, for: request)
+    }
+    
+    // Reusable request function making use of using generics
+    private func requestObject<T: Decodable>(of type: T.Type, for request: URLRequest) async throws -> T {
         // Make URLSession request for data
         let (data, response) = try await URLSession.shared.data(for: request)
         // Check for error status codes
         if let response = response as? HTTPURLResponse, response.statusCode != 200 {
             throw ServerError(response.statusCode)
         } else {
-            // Attempt to parse and return BusinessSearchResponse object from data
-            return try decoder.decode(BusinessSearchResponse.self, from: data)
+            // Attempt to parse and return object of type T.Type from data
+            return try decoder.decode(type.self, from: data)
         }
     }
     

@@ -16,6 +16,7 @@ struct PoweredByYelpView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 20)
+                .accessibilityLabel("Yelp")
         }
     }
 }

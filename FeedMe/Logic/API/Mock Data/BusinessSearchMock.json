@@ -1,95 +1,489 @@
-
 {
   "businesses": [
     {
-      "id": "ts2WASctpBwC-0lFrDdlVQ",
-      "alias": "panera-bread-atlanta-6",
-      "name": "Panera Bread",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LAdQdSEHd-UJC9WVxpwUAQ/o.jpg",
+      "id": "IOLwhRIF2wyhbTJl_J2khw",
+      "alias": "breakfast-at-barneys-atlanta-2",
+      "name": "Breakfast At Barneys",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/cGeo3ZvOeLlk-9NKnz0f1Q/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/panera-bread-atlanta-6?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
-      "review_count": 113,
+      "url": "https://www.yelp.com/biz/breakfast-at-barneys-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 2022,
       "categories": [
         {
-          "alias": "sandwiches",
-          "title": "Sandwiches"
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
         },
         {
-          "alias": "salad",
-          "title": "Salad"
+          "alias": "newamerican",
+          "title": "New American"
         },
         {
-          "alias": "soup",
-          "title": "Soup"
+          "alias": "champagne_bars",
+          "title": "Champagne Bars"
         }
       ],
-      "rating": 2.4,
+      "rating": 3.9,
       "coordinates": {
-        "latitude": 33.84592030030037,
-        "longitude": -84.2571584880352
+        "latitude": 33.74973644823004,
+        "longitude": -84.37899152708991
       },
       "transactions": [
         "delivery"
       ],
       "price": "$$",
       "location": {
-        "address1": "2100 Henderson Mill Rd",
-        "address2": null,
+        "address1": "349 Decatur St SE",
+        "address2": "",
         "address3": "",
         "city": "Atlanta",
-        "zip_code": "30345",
+        "zip_code": "30312",
         "country": "US",
         "state": "GA",
         "display_address": [
-          "2100 Henderson Mill Rd",
-          "Atlanta, GA 30345"
+          "349 Decatur St SE",
+          "Atlanta, GA 30312"
         ]
       },
-      "phone": "+17704144664",
-      "display_phone": "(770) 414-4664",
-      "distance": 16149.83168250235,
+      "phone": "+14045496042",
+      "display_phone": "(404) 549-6042",
+      "distance": 880.0366183524316,
       "business_hours": [
         {
           "open": [
             {
               "is_overnight": false,
-              "start": "0630",
-              "end": "2100",
+              "start": "0700",
+              "end": "1700",
               "day": 0
             },
             {
               "is_overnight": false,
-              "start": "0630",
-              "end": "2100",
+              "start": "0700",
+              "end": "1700",
               "day": 1
             },
             {
               "is_overnight": false,
-              "start": "0630",
-              "end": "2100",
+              "start": "0700",
+              "end": "1700",
               "day": 2
             },
             {
               "is_overnight": false,
-              "start": "0630",
-              "end": "2100",
+              "start": "0700",
+              "end": "1700",
               "day": 3
             },
             {
               "is_overnight": false,
-              "start": "0630",
-              "end": "2100",
+              "start": "0700",
+              "end": "1700",
               "day": 4
             },
             {
               "is_overnight": false,
               "start": "0700",
-              "end": "2100",
+              "end": "1700",
               "day": 5
             },
             {
               "is_overnight": false,
               "start": "0700",
+              "end": "1700",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.breakfastatbarneys.com/barneys-menu",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "U-i6cq-yFRVJC4pIKSLX9Q",
+      "alias": "poor-calvins-atlanta-15",
+      "name": "Poor Calvin's",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/pLpTVXHdCbxjdjvYMhtBRg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/poor-calvins-atlanta-15?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 4883,
+      "categories": [
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.7684,
+        "longitude": -84.38226
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "510 Piedmont Ave NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "510 Piedmont Ave NE",
+          "Atlanta, GA 30308"
+        ]
+      },
+      "phone": "+14042544051",
+      "display_phone": "(404) 254-4051",
+      "distance": 2122.2264088779843,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "1500",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://poorcalvins.com/atlanta-atlanta-poor-calvin-s-food-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "aSUsF4-44EUmBiISNucJ-A",
+      "alias": "fellaship-atlanta",
+      "name": "Fellaship",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DIeFjSLFwqYAVcXiPVC9Dg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/fellaship-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 214,
+      "categories": [
+        {
+          "alias": "cigarbars",
+          "title": "Cigar Bars"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        },
+        {
+          "alias": "comfortfood",
+          "title": "Comfort Food"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.7517828,
+        "longitude": -84.3992599
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "110 Centennial Olympic Park Dr",
+        "address2": "Ste 102-104",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30313",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "110 Centennial Olympic Park Dr",
+          "Ste 102-104",
+          "Atlanta, GA 30313"
+        ]
+      },
+      "phone": "+14042544970",
+      "display_phone": "(404) 254-4970",
+      "distance": 1012.2420002303978,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 3
+            },
+            {
+              "is_overnight": true,
+              "start": "1700",
+              "end": "0100",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1700",
+              "end": "0100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "1800",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "58UbC9XukpoPC2fXGIlPiw",
+      "alias": "park-bar-atlanta",
+      "name": "Park Bar",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/mjNn_SdXgsuV29mKr4-SfA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/park-bar-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 712,
+      "categories": [
+        {
+          "alias": "bars",
+          "title": "Bars"
+        },
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.758113861084,
+        "longitude": -84.3929214477539
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "150 Walton St",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "150 Walton St",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14045240444",
+      "display_phone": "(404) 524-0444",
+      "distance": 982.5393502416853,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "0000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.parkbaratlanta.com/#!menu/c5a2",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "wuba10gZw-FUp7iWFQzdqA",
+      "alias": "alma-cocina-atlanta-atlanta",
+      "name": "Alma Cocina - Atlanta",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mmPM-Rq1V-0A9O5JdUKAAQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/alma-cocina-atlanta-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1335,
+      "categories": [
+        {
+          "alias": "latin",
+          "title": "Latin American"
+        },
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 33.759156314923,
+        "longitude": -84.3874444429916
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "191 Peachtree St NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "191 Peachtree St NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14049689662",
+      "display_phone": "(404) 968-9662",
+      "distance": 1011.7324861618742,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
               "end": "2100",
               "day": 6
             }
@@ -100,16 +494,4470 @@
       ],
       "attributes": {
         "business_temp_closed": null,
-        "menu_url": "https://www.panerabread.com/en-us/menu.html?utm_source=yelp&utm_medium=local&utm_campaign=dpm-dist&utm_term=202563&utm_content=menu",
+        "menu_url": "https://www.alma-atlanta.com/downtown-menu/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "AUV7Ocno9T8_qPlFeRSziA",
+      "alias": "teds-montana-grill-luckie-street-atlanta",
+      "name": "Ted's Montana Grill",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/FIX6nmnCh_27AaVTG6DNeA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/teds-montana-grill-luckie-street-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1285,
+      "categories": [
+        {
+          "alias": "burgers",
+          "title": "Burgers"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 3.8,
+      "coordinates": {
+        "latitude": 33.75864,
+        "longitude": -84.39049281165676
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "133 Luckie St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "133 Luckie St NW",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14045219796",
+      "display_phone": "(404) 521-9796",
+      "distance": 967.3107137823536,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.tedsmontanagrill.com/menu/LuckieSt.pdf",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "7895YHS5qGu03R-C6aYg9g",
+      "alias": "the-optimist-atlanta",
+      "name": "The Optimist",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/hN890hejDu5Pk1_TmTnx9w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-optimist-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 2301,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        },
+        {
+          "alias": "beerbar",
+          "title": "Beer Bar"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.77999,
+        "longitude": -84.41069
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "914 Howell Mill Rd",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30318",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "914 Howell Mill Rd",
+          "Atlanta, GA 30318"
+        ]
+      },
+      "phone": "+14044776260",
+      "display_phone": "(404) 477-6260",
+      "distance": 3910.292664609063,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "JIvAjPUZgQFuo4wb_MdvBw",
+      "alias": "rays-in-the-city-atlanta-atlanta",
+      "name": "Ray's In the City - Atlanta",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/D37AFU9o_Ps6ZzEqxUp0nw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/rays-in-the-city-atlanta-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1410,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.7604276519377,
+        "longitude": -84.3877977142334
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "240 Peachtree St NW",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "240 Peachtree St NW",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14045249224",
+      "display_phone": "(404) 524-9224",
+      "distance": 1150.2151166153885,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.raysrestaurants.com/raysinthecity/menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "u-4wti774tFcYRLuQrnHEg",
+      "alias": "fox-bros-bar-b-q-atlanta",
+      "name": "Fox Bros. Bar-B-Q",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wdbWWmxZzR9NOXdo7oJ_uw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/fox-bros-bar-b-q-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 4922,
+      "categories": [
+        {
+          "alias": "bbq",
+          "title": "Barbeque"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.761161865788814,
+        "longitude": -84.3475019931793
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1238 Dekalb Ave NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30307",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1238 Dekalb Ave NE",
+          "Atlanta, GA 30307"
+        ]
+      },
+      "phone": "+14045774030",
+      "display_phone": "(404) 577-4030",
+      "distance": 3984.816948354754,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.foxbrosbbq.com/fox-bros-atlanta-bbq-menu.html",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "JfgsCMKJOCMg1O2iK4ObWA",
+      "alias": "sweet-georgias-juke-joint-atlanta",
+      "name": "Sweet Georgia's Juke Joint",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/MQqFxl5ycY6iZegPu_3Y3Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sweet-georgias-juke-joint-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1551,
+      "categories": [
+        {
+          "alias": "southern",
+          "title": "Southern"
+        },
+        {
+          "alias": "musicvenues",
+          "title": "Music Venues"
+        }
+      ],
+      "rating": 3.6,
+      "coordinates": {
+        "latitude": 33.7586934669823,
+        "longitude": -84.387737724504
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "200 Peachtree St NE",
+        "address2": "Ste L05",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "200 Peachtree St NE",
+          "Ste L05",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14704195853",
+      "display_phone": "(470) 419-5853",
+      "distance": 958.1440591884246,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "1700",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Slj9yz_RfDRqiMRH8VxUMQ",
+      "alias": "amalfi-cucina-and-mercato-atlanta-4",
+      "name": "Amalfi Cucina & Mercato",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/4MurfwS5zT6exSzrW_diSg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/amalfi-cucina-and-mercato-atlanta-4?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1185,
+      "categories": [
+        {
+          "alias": "pizza",
+          "title": "Pizza"
+        },
+        {
+          "alias": "italian",
+          "title": "Italian"
+        }
+      ],
+      "rating": 3.9,
+      "coordinates": {
+        "latitude": 33.759567,
+        "longitude": -84.386903
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "17 Andrew Young International Blvd NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "17 Andrew Young International Blvd NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14042287528",
+      "display_phone": "(404) 228-7528",
+      "distance": 1067.5905849734168,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://assets.website-files.com/61903595abdd6862e1d4ae00/652d373011f4fba4b8f4dfb5_BKHD%20Amalfi%20Lunch%20-%20NEW.pdf",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "_BNuP4qFCrUxBt2dGpUMaA",
+      "alias": "baraka-shawarma-atlanta",
+      "name": "Baraka Shawarma",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7_ZOkNUXYwsuouhPW3HsaQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/baraka-shawarma-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 600,
+      "categories": [
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "indpak",
+          "title": "Indian"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.7563422479846,
+        "longitude": -84.390687742543
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "68 Walton St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "68 Walton St NW",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14042309232",
+      "display_phone": "(404) 230-9232",
+      "distance": 729.7766063193959,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Kv3zIdrqga6qMOLtpt4vzQ",
+      "alias": "tyde-tate-kitchen-south-downtown-atlanta",
+      "name": "Tyde Tate Kitchen - South Downtown",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Wao8kvN0Z0ZIK8aIHIeBlQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/tyde-tate-kitchen-south-downtown-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 74,
+      "categories": [
+        {
+          "alias": "thai",
+          "title": "Thai"
+        },
+        {
+          "alias": "comfortfood",
+          "title": "Comfort Food"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.752236,
+        "longitude": -84.395144
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "229 Mitchell St",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "229 Mitchell St",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14049074452",
+      "display_phone": "(404) 907-4452",
+      "distance": 660.0875517755275,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.tydetatekitchen.com/south-downtown-hotel-row-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "o-3ecYRWkOrYNdZjvjWW3A",
+      "alias": "jenchans-atlanta",
+      "name": "JenChan's",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YQk77ijDlMfQsRz-X2rnJA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/jenchans-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 163,
+      "categories": [
+        {
+          "alias": "pizza",
+          "title": "Pizza"
+        },
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        },
+        {
+          "alias": "chinese",
+          "title": "Chinese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.749514,
+        "longitude": -84.367899
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "186 Carroll St SE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30312",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "186 Carroll St SE",
+          "Atlanta, GA 30312"
+        ]
+      },
+      "phone": "+14046327064",
+      "display_phone": "(404) 632-7064",
+      "distance": 1905.8058276451357,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.jenchans.com/pages/jenchans-restaurant-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "S6pc488qCzUKLGwXDvCUoQ",
+      "alias": "aamar-indian-cuisine-atlanta",
+      "name": "Aamar Indian Cuisine",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Bzltgl3kbYTJM8_qKPW26g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/aamar-indian-cuisine-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 649,
+      "categories": [
+        {
+          "alias": "indpak",
+          "title": "Indian"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.757311,
+        "longitude": -84.389912
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "100 Luckie St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "100 Luckie St NW",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14042576959",
+      "display_phone": "(404) 257-6959",
+      "distance": 812.3825688188331,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://aamarindian.com/#menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "uO4A77jXMPfZmlbf_52zRw",
+      "alias": "boccalupo-atlanta",
+      "name": "BoccaLupo",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3pePTI_FwBl0vvxytMOHNw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/boccalupo-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 719,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.7547495778871,
+        "longitude": -84.3628013134003
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "753 Edgewood Ave NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30307",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "753 Edgewood Ave NE",
+          "Atlanta, GA 30307"
+        ]
+      },
+      "phone": "+14045772332",
+      "display_phone": "(404) 577-2332",
+      "distance": 2431.508662869903,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2200",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://boccalupoatl.com/bocca_lupo_menu.html",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Yo5TqG9cMXpOnbS0BVN3jg",
+      "alias": "atalian-kitchen-and-bar-atlanta",
+      "name": "Atalian KITCHEN & BAR",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EPVLWlf1riMzqbNkJTqLwA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/atalian-kitchen-and-bar-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 108,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 33.759901,
+        "longitude": -84.3857852
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "60 Andrew Young International Blvd NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "60 Andrew Young International Blvd NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14045778788",
+      "display_phone": "(404) 577-8788",
+      "distance": 1118.3471794192521,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://atalian-atl.com/atalian-menu/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "6gmEsan5nMc0_DPP7usxvA",
+      "alias": "fin-and-feathers-atlanta",
+      "name": "Fin & Feathers",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/B_4qPnrGHOS1imKBKMrA_A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/fin-and-feathers-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 474,
+      "categories": [
+        {
+          "alias": "soulfood",
+          "title": "Soul Food"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.75417695367157,
+        "longitude": -84.3763417
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "345 Edgewood Ave SE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30312",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "345 Edgewood Ave SE",
+          "Atlanta, GA 30312"
+        ]
+      },
+      "phone": "+16787055757",
+      "display_phone": "(678) 705-5757",
+      "distance": 1212.0413636980668,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0100",
+              "day": 0
+            },
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0100",
+              "day": 1
+            },
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0100",
+              "day": 2
+            },
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0200",
+              "day": 3
+            },
+            {
+              "is_overnight": true,
+              "start": "1100",
+              "end": "0300",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1000",
+              "end": "0300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "0000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "z9oCxeqOKp2QMfM24m7bUw",
+      "alias": "mary-macs-tea-room-atlanta",
+      "name": "Mary Mac's Tea Room",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9SxbAlnxs2IR-PybCB8Pug/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/mary-macs-tea-room-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 5243,
+      "categories": [
+        {
+          "alias": "southern",
+          "title": "Southern"
+        },
+        {
+          "alias": "venues",
+          "title": "Venues & Event Spaces"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 3.9,
+      "coordinates": {
+        "latitude": 33.77286,
+        "longitude": -84.37988
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "224 Ponce De Leon Ave NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "224 Ponce De Leon Ave NE",
+          "Atlanta, GA 30308"
+        ]
+      },
+      "phone": "+14048761800",
+      "display_phone": "(404) 876-1800",
+      "distance": 2648.6341683526025,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.marymacs.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "ApwmEiStq9aP9-Tf2xfVtA",
+      "alias": "guss-world-famous-fried-chicken-atlanta",
+      "name": "Gus's World Famous Fried Chicken",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/AjPTch2q7ieZucdbTNEATg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/guss-world-famous-fried-chicken-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1850,
+      "categories": [
+        {
+          "alias": "southern",
+          "title": "Southern"
+        },
+        {
+          "alias": "chickenshop",
+          "title": "Chicken Shop"
+        },
+        {
+          "alias": "comfortfood",
+          "title": "Comfort Food"
+        }
+      ],
+      "rating": 4.1,
+      "coordinates": {
+        "latitude": 33.76022389525571,
+        "longitude": -84.38708237506856
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "231 Peachtree St NE",
+        "address2": "Ste A-05",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "231 Peachtree St NE",
+          "Ste A-05",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14049962837",
+      "display_phone": "(404) 996-2837",
+      "distance": 1133.3279064533567,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "LyizNBLFLB4Qkx_0_8_BaQ",
+      "alias": "der-biergarten-atlanta",
+      "name": "Der Biergarten",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0vbWT16RSW9L4r5m2NqiAw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/der-biergarten-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 846,
+      "categories": [
+        {
+          "alias": "german",
+          "title": "German"
+        },
+        {
+          "alias": "beergardens",
+          "title": "Beer Gardens"
+        }
+      ],
+      "rating": 3.9,
+      "coordinates": {
+        "latitude": 33.7618737192836,
+        "longitude": -84.3966451981994
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "300 Marietta St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30313",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "300 Marietta St NW",
+          "Atlanta, GA 30313"
+        ]
+      },
+      "phone": "+14045212728",
+      "display_phone": "(404) 521-2728",
+      "distance": 1510.2882887988917,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://derbiergarten.com/atlanta-downtown-atlanta-across-from-the-hilton-garden-inn-downtown-right-by-the-aquarium-cnn-center-mercedes-benz-stadium-and-state-farm-arena-der-biergarten-food-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "_lEHolD7sVt4-SnbuuAgcA",
+      "alias": "eight-sushi-lounge-atlanta",
+      "name": "Eight Sushi Lounge",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/T_uS6alY8hHOygVa-KX5pw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/eight-sushi-lounge-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1470,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "lounges",
+          "title": "Lounges"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.78002189659998,
+        "longitude": -84.41184259789043
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "930 Howell Mill Rd NW",
+        "address2": "Ste B",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30318",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "930 Howell Mill Rd NW",
+          "Ste B",
+          "Atlanta, GA 30318"
+        ]
+      },
+      "phone": "+14047968888",
+      "display_phone": "(404) 796-8888",
+      "distance": 3965.593400543513,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.eightsushiatl.com/eight-sushi/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "QW3anlt1nJ9aNkdQAV-Ifw",
+      "alias": "old-lady-gang-atlanta",
+      "name": "Old Lady Gang",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/pfIqriNHgQY_mlihgWlm0A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/old-lady-gang-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 2848,
+      "categories": [
+        {
+          "alias": "southern",
+          "title": "Southern"
+        },
+        {
+          "alias": "soulfood",
+          "title": "Soul Food"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 3,
+      "coordinates": {
+        "latitude": 33.749682,
+        "longitude": -84.399382
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "177 Peters St SW",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30313",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "177 Peters St SW",
+          "Atlanta, GA 30313"
+        ]
+      },
+      "phone": "+14047489689",
+      "display_phone": "(404) 748-9689",
+      "distance": 1006.8819756935028,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2000",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2000",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://oldladygang.com/menu/",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "vFulipMlcFyN60_SyAhjyA",
+      "alias": "twin-smokers-bbq-atlanta",
+      "name": "Twin Smokers Bbq",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/onkdoCs-iiJ8t6cHETfugw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/twin-smokers-bbq-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1103,
+      "categories": [
+        {
+          "alias": "bbq",
+          "title": "Barbeque"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.761764246876,
+        "longitude": -84.3964970011887
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "300 Marietta St NW",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30313",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "300 Marietta St NW",
+          "Atlanta, GA 30313"
+        ]
+      },
+      "phone": "+14046984707",
+      "display_phone": "(404) 698-4707",
+      "distance": 1492.9170246906601,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2000",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2000",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2000",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2000",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2000",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2000",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1800",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://twinsmokersbbq.com/atlanta-downtown-atlanta-twin-smokers-bbq-food-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "RFCibpN2u5pt4eev7gBQXA",
+      "alias": "little-bear-atlanta",
+      "name": "Little Bear",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/RXpZ19zI1AiAkDcu2YYlkQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/little-bear-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 149,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 33.736843979354845,
+        "longitude": -84.38546295767111
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "location": {
+        "address1": "71 Georgia Ave SE",
+        "address2": "Unit A",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30312",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "71 Georgia Ave SE",
+          "Unit A",
+          "Atlanta, GA 30312"
+        ]
+      },
+      "phone": "+14045005396",
+      "display_phone": "(404) 500-5396",
+      "distance": 1500.510863062947,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.littlebearatl.com",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "NDvXI500LkmWjtOhk4MCZw",
+      "alias": "lyla-lila-atlanta",
+      "name": "Lyla Lila",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/CWBMzNwzhDriZArhyjuZlw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/lyla-lila-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 299,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.77348,
+        "longitude": -84.38446
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "693 Peachtree St NE",
+        "address2": "Ste 118",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "693 Peachtree St NE",
+          "Ste 118",
+          "Atlanta, GA 30308"
+        ]
+      },
+      "phone": "+14049632637",
+      "display_phone": "(404) 963-2637",
+      "distance": 2645.0377086352496,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.lylalilaatl.com/new-page",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "23UWCyB8UnPu-0t-67iEKA",
+      "alias": "the-food-shoppe-atlanta-4",
+      "name": "The Food Shoppe ",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EFK_dMZup89faB7CGTcTbg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-food-shoppe-atlanta-4?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1070,
+      "categories": [
+        {
+          "alias": "cajun",
+          "title": "Cajun/Creole"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.758317328053245,
+        "longitude": -84.39043621390421
+      },
+      "transactions": [
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "123 Luckie St NW",
+        "address2": "Ste 108",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "123 Luckie St NW",
+          "Ste 108",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14046008443",
+      "display_phone": "(404) 600-8443",
+      "distance": 931.0930811031224,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0830",
+              "end": "2000",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0830",
+              "end": "2000",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0830",
+              "end": "2000",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0830",
+              "end": "2330",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0830",
+              "end": "2330",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2000",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://thefoodshoppeatl.com/atlanta-the-food-shoppe-food-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "_F7t1ie5c299zxVJwwsd3g",
+      "alias": "delbar-middle-eastern-atlanta",
+      "name": "Delbar Middle Eastern",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/x-BkRvcjjV8nrTdkHITy_g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/delbar-middle-eastern-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 985,
+      "categories": [
+        {
+          "alias": "persian",
+          "title": "Persian/Iranian"
+        },
+        {
+          "alias": "lebanese",
+          "title": "Lebanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.761615,
+        "longitude": -84.3602065
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "870 Inman Village Pkwy NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30307",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "870 Inman Village Pkwy NE",
+          "Atlanta, GA 30307"
+        ]
+      },
+      "phone": "+14045001444",
+      "display_phone": "(404) 500-1444",
+      "distance": 2912.272259896073,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.delbaratl.com/menus/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "dfL1KYHtcs6YaFVx-nZTdQ",
+      "alias": "whiskey-bird-atlanta",
+      "name": "Whiskey Bird",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/QAGt0xThFocXZQO2_7-Bpw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/whiskey-bird-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 687,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.792656,
+        "longitude": -84.351852
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1409 N Highland Ave NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30306",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1409 N Highland Ave NE",
+          "Atlanta, GA 30306"
+        ]
+      },
+      "phone": "+14045000575",
+      "display_phone": "(404) 500-0575",
+      "distance": 5819.509797063973,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1030",
+              "end": "2130",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1030",
+              "end": "2130",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1030",
+              "end": "2000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.eatwhiskeybird.com/menus/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "uZaT6J821lHMFrfrFno7lg",
+      "alias": "herban-fix-vegan-kitchen-atlanta",
+      "name": "Herban Fix - Vegan Kitchen",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DLVyDzPWJi5gvM3U5L2C5Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/herban-fix-vegan-kitchen-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 973,
+      "categories": [
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        },
+        {
+          "alias": "vegetarian",
+          "title": "Vegetarian"
+        },
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.7700811335769,
+        "longitude": -84.3849544543691
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "565-A Peachtree St NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "565-A Peachtree St NE",
+          "Atlanta, GA 30308"
+        ]
+      },
+      "phone": "+14048158787",
+      "display_phone": "(404) 815-8787",
+      "distance": 2245.8444611343266,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://herbanfix.com/menus",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "xh7cXbX0hYKg0VucnTjBFw",
+      "alias": "no-mas-cantina-atlanta-2",
+      "name": "No Mas! Cantina",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/tMSiGGsfY0KGj7oONiHKUA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/no-mas-cantina-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1670,
+      "categories": [
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        },
+        {
+          "alias": "venues",
+          "title": "Venues & Event Spaces"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 3.7,
+      "coordinates": {
+        "latitude": 33.74946906761119,
+        "longitude": -84.4008059
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "180 Walker St SW",
+        "address2": "Ste B",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30313",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "180 Walker St SW",
+          "Ste B",
+          "Atlanta, GA 30313"
+        ]
+      },
+      "phone": "+14045745678",
+      "display_phone": "(404) 574-5678",
+      "distance": 1139.9070348987987,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "0800",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://nomascantina.com/pages/cantina-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "7hdnCKFbCl5P0G3l1-E2mw",
+      "alias": "polaris-atlanta",
+      "name": "Polaris",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NN3iVN31fjqOwLAHuR2Y5g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/polaris-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 401,
+      "categories": [
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 33.7613764442732,
+        "longitude": -84.3866796520455
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "265 Peachtree St NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "265 Peachtree St NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14044606425",
+      "display_phone": "(404) 460-6425",
+      "distance": 1265.1250248695462,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "0000",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "0000",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "yNRCLu9ESXu9M9R-nO_fEQ",
+      "alias": "ruby-chows-atlanta",
+      "name": "Ruby Chow's",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nbPG9Lq6z-XyZx1cYtKnfg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/ruby-chows-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 388,
+      "categories": [
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.771564,
+        "longitude": -84.368125
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "620 Glen Iris Dr NE",
+        "address2": "Ste C-1",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "620 Glen Iris Dr NE",
+          "Ste C-1",
+          "Atlanta, GA 30308"
+        ]
+      },
+      "phone": "+14045857829",
+      "display_phone": "(404) 585-7829",
+      "distance": 3045.720579325006,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2130",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2130",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2300",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.rubychows.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "CxQ1m2iY4wQpXC64tSfWgQ",
+      "alias": "antico-pizza-atlanta",
+      "name": "Antico Pizza",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/nY55oj8gRtz1NQsuZpecKw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/antico-pizza-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 3821,
+      "categories": [
+        {
+          "alias": "pizza",
+          "title": "Pizza"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.7846416243576,
+        "longitude": -84.405652364418
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1093 Hemphill Ave NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30318",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1093 Hemphill Ave NW",
+          "Atlanta, GA 30318"
+        ]
+      },
+      "phone": "+14047242333",
+      "display_phone": "(404) 724-2333",
+      "distance": 4155.230341874007,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.littleitalia.com/antico_menu.pdf",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "0n0C5zCqhjG2XDSOhlQ4Vg",
+      "alias": "eighty7sweets-vegan-ice-cream-atlanta-3",
+      "name": "Eighty7sweets Vegan Ice Cream",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/BC7y2Q2d3r6R5TgH9GSMiA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/eighty7sweets-vegan-ice-cream-atlanta-3?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 124,
+      "categories": [
+        {
+          "alias": "icecream",
+          "title": "Ice Cream & Frozen Yogurt"
+        },
+        {
+          "alias": "vegan",
+          "title": "Vegan"
+        }
+      ],
+      "rating": 4.9,
+      "coordinates": {
+        "latitude": 33.75575,
+        "longitude": -84.38961
+      },
+      "transactions": [],
+      "location": {
+        "address1": "56 Broad St NW",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "56 Broad St NW",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14703787956",
+      "display_phone": "(470) 378-7956",
+      "distance": 639.3689929259756,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1500",
+              "end": "1900",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.eighty7sweets.com/online-ordering",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "fcWvZtcRAgr3QCmvj3F3bg",
+      "alias": "marcus-bar-and-grille-atlanta-2",
+      "name": "Marcus Bar & Grille",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OivBCP3zMzdLGiKB3dNRkQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/marcus-bar-and-grille-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 335,
+      "categories": [
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 4.1,
+      "coordinates": {
+        "latitude": 33.754018,
+        "longitude": -84.370301
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "525 Edgewood Ave SE",
+        "address2": null,
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30312",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "525 Edgewood Ave SE",
+          "Atlanta, GA 30312"
+        ]
+      },
+      "phone": "+14708901700",
+      "display_phone": "(470) 890-1700",
+      "distance": 1738.0377094099615,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1030",
+              "end": "1400",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2300",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1030",
+              "end": "1400",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.marcusbarandgrille.com/menus/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "DRL1GpT6lsgmGEVVwn1Vkg",
+      "alias": "a-mano-atlanta-2",
+      "name": "a mano",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/an_Be1OtHZnZW_1_wVbiNg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/a-mano-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 452,
+      "categories": [
+        {
+          "alias": "italian",
+          "title": "Italian"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.76374,
+        "longitude": -84.36806
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "587 Ralph McGill Blvd NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30312",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "587 Ralph McGill Blvd NE",
+          "Atlanta, GA 30312"
+        ]
+      },
+      "phone": "+14045497727",
+      "display_phone": "(404) 549-7727",
+      "distance": 2436.384694150668,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.amanoatl.com/dinner",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "wutVo9ZjFu99HAAY4IGjhw",
+      "alias": "bon-ton-atlanta",
+      "name": "Bon Ton",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/z7BmU-PN5pAqqPT8bvEGnA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bon-ton-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 678,
+      "categories": [
+        {
+          "alias": "cajun",
+          "title": "Cajun/Creole"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "tikibars",
+          "title": "Tiki Bars"
+        }
+      ],
+      "rating": 4.1,
+      "coordinates": {
+        "latitude": 33.7730373962839,
+        "longitude": -84.38033323735
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "674 Myrtle St NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "674 Myrtle St NE",
+          "Atlanta, GA 30308"
+        ]
+      },
+      "phone": "+14049966177",
+      "display_phone": "(404) 996-6177",
+      "distance": 2659.907621358094,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2230",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2230",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2230",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2230",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2330",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2330",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2230",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "_ecM0OUXnNOjB6CMnldDtg",
+      "alias": "the-sun-dial-restaurant-bar-and-view-atlanta",
+      "name": "The Sun Dial Restaurant, Bar & View",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EsyZGkNfU68MfYk8bGc-NQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-sun-dial-restaurant-bar-and-view-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1323,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 3.2,
+      "coordinates": {
+        "latitude": 33.759349,
+        "longitude": -84.388573
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$$",
+      "location": {
+        "address1": "210 Peachtree St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "210 Peachtree St NW",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14045897506",
+      "display_phone": "(404) 589-7506",
+      "distance": 1028.462879359405,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2130",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1730",
+              "end": "2130",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.sundialrestaurant.com/sundialdinnermenu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "AKy2zm65mK5bti9kOCNVBA",
+      "alias": "red-phone-booth-atlanta-8",
+      "name": "Red Phone Booth",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/bwnWsBARdEqK0ThvLzb0kw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/red-phone-booth-atlanta-8?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 697,
+      "categories": [
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        },
+        {
+          "alias": "cigarbars",
+          "title": "Cigar Bars"
+        },
+        {
+          "alias": "speakeasies",
+          "title": "Speakeasies"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.75959394808267,
+        "longitude": -84.38691336112996
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "17 Andrew Young International Blvd NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "17 Andrew Young International Blvd NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 1065.819752863963,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0100",
+              "day": 0
+            },
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0100",
+              "day": 1
+            },
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0100",
+              "day": 2
+            },
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0100",
+              "day": 3
+            },
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0200",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1600",
+              "end": "0200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "0000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "v7jxMevlILvPkDWubX_Xug",
+      "alias": "cuts-steakhouse-atlanta",
+      "name": "Cuts Steakhouse",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/mb2S0QKUSTLT69TsoSkliw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/cuts-steakhouse-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 833,
+      "categories": [
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        },
+        {
+          "alias": "tradamerican",
+          "title": "American"
+        }
+      ],
+      "rating": 3.7,
+      "coordinates": {
+        "latitude": 33.7598038,
+        "longitude": -84.3858337
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "60 Andrew Young International Blvd NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "60 Andrew Young International Blvd NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14045253399",
+      "display_phone": "(404) 525-3399",
+      "distance": 1118.2059798967255,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "q43-XtobLPmbkxHmpSvEFA",
+      "alias": "kitty-dare-atlanta",
+      "name": "Kitty Dare",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/oLfE7nUmPeoukx_ZzRRyQQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kitty-dare-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 154,
+      "categories": [
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.6,
+      "coordinates": {
+        "latitude": 33.757198,
+        "longitude": -84.354178
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "location": {
+        "address1": "1029 Edgewood Ave NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30307",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1029 Edgewood Ave NE",
+          "Atlanta, GA 30307"
+        ]
+      },
+      "phone": "+14042281566",
+      "display_phone": "(404) 228-1566",
+      "distance": 3270.789983289913,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2130",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "1430",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1600",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "yEB_TgDdA84SIsa_Ht3-Pw",
+      "alias": "thrive-atlanta",
+      "name": "Thrive",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mhh3rNaUM8Tn7Pqb_HXhXg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/thrive-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 445,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "lounges",
+          "title": "Lounges"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 3.5,
+      "coordinates": {
+        "latitude": 33.7569394607425,
+        "longitude": -84.3923377990723
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "101 Marietta St NW",
+        "address2": "Fl 1 Centennial Tower",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "101 Marietta St NW",
+          "Fl 1 Centennial Tower",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14043891000",
+      "display_phone": "(404) 389-1000",
+      "distance": 839.2073964122985,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1130",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://thriveatl.com/atlanta-downtown-thrive-food-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "9TLfCS60bIu5DLY4JBfNLw",
+      "alias": "lazy-betty-atlanta-2",
+      "name": "Lazy Betty",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mve6Qia3CXxk7aqQ-K1JwQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/lazy-betty-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 277,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.78141523610617,
+        "longitude": -84.38365572160312
+      },
+      "transactions": [],
+      "price": "$$$$",
+      "location": {
+        "address1": "999 Peachtree St NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30309",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "999 Peachtree St NE",
+          "Atlanta, GA 30309"
+        ]
+      },
+      "phone": "+14708511199",
+      "display_phone": "(470) 851-1199",
+      "distance": 3510.76665818632,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "BSUDAiXd50PAkfFAztVpDw",
+      "alias": "aviva-by-kameel-atlanta-atlanta",
+      "name": "Aviva by Kameel - Atlanta",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cHmK253wEJstuM0SZv5xaQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/aviva-by-kameel-atlanta-atlanta?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1867,
+      "categories": [
+        {
+          "alias": "mediterranean",
+          "title": "Mediterranean"
+        },
+        {
+          "alias": "mideastern",
+          "title": "Middle Eastern"
+        }
+      ],
+      "rating": 4.8,
+      "coordinates": {
+        "latitude": 33.7605381455292,
+        "longitude": -84.3865554648041
+      },
+      "transactions": [
+        "delivery",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "225 Peachtree St NE",
+        "address2": "Ste B-30",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "225 Peachtree St NE",
+          "Ste B-30",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14046983600",
+      "display_phone": "(404) 698-3600",
+      "distance": 1174.5070302712,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1500",
+              "day": 4
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.avivabykameel.com/index.php/lunch",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "viqkunBBI6QOIZehME-7gg",
+      "alias": "hattie-bs-hot-chicken-atlanta-east-atlanta-3",
+      "name": "Hattie B's Hot Chicken - Atlanta East",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vdEzNb4z12YluuZPJ7aCCw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hattie-bs-hot-chicken-atlanta-east-atlanta-3?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 2229,
+      "categories": [
+        {
+          "alias": "chickenshop",
+          "title": "Chicken Shop"
+        },
+        {
+          "alias": "chicken_wings",
+          "title": "Chicken Wings"
+        },
+        {
+          "alias": "sandwiches",
+          "title": "Sandwiches"
+        }
+      ],
+      "rating": 4.3,
+      "coordinates": {
+        "latitude": 33.7624,
+        "longitude": -84.34882
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "299 Moreland Ave NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30307",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "299 Moreland Ave NE",
+          "Atlanta, GA 30307"
+        ]
+      },
+      "phone": "+16789905100",
+      "display_phone": "(678) 990-5100",
+      "distance": 3911.109899727746,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "2200",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "2200",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "2200",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "2200",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "0000",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "0000",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1045",
+              "end": "2000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": null,
+        "open24_hours": null,
+        "waitlist_reservation": false
+      }
+    },
+    {
+      "id": "eG-UO83g_5zDk70FIJbm2w",
+      "alias": "south-city-kitchen-midtown-atlanta-2",
+      "name": "South City Kitchen Midtown",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/L1qX2ttHqvNMqgsw_JQNLQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/south-city-kitchen-midtown-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 3438,
+      "categories": [
+        {
+          "alias": "southern",
+          "title": "Southern"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 33.78596777974661,
+        "longitude": -84.3844341
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1144 Crescent Ave NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30309",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1144 Crescent Ave NE",
+          "Atlanta, GA 30309"
+        ]
+      },
+      "phone": "+14048737358",
+      "display_phone": "(404) 873-7358",
+      "distance": 4005.979733490312,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1400",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2130",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "1430",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "1500",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1000",
+              "end": "1500",
+              "day": 6
+            },
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "2100",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://www.southcitykitchen.com/midtown-menus/",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "dWBKYjQ3q2v2dOjsfLLxDg",
+      "alias": "the-bqe-restaurant-and-lounge-atlanta-4",
+      "name": "The BQE Restaurant & Lounge",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/YCuYWWevsFBvoiP1LNIEiw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-bqe-restaurant-and-lounge-atlanta-4?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1495,
+      "categories": [
+        {
+          "alias": "soulfood",
+          "title": "Soul Food"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 3.3,
+      "coordinates": {
+        "latitude": 33.7546,
+        "longitude": -84.37913
+      },
+      "transactions": [
+        "delivery",
+        "restaurant_reservation",
+        "pickup"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "262 Edgewood Ave NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "262 Edgewood Ave NE",
+          "Atlanta, GA 30303"
+        ]
+      },
+      "phone": "+14049966159",
+      "display_phone": "(404) 996-6159",
+      "distance": 996.9501028509063,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1700",
+              "end": "0000",
+              "day": 3
+            },
+            {
+              "is_overnight": true,
+              "start": "1200",
+              "end": "0200",
+              "day": 4
+            },
+            {
+              "is_overnight": true,
+              "start": "1200",
+              "end": "0200",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1200",
+              "end": "0000",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://bqelounge.com/menu",
+        "open24_hours": null,
+        "waitlist_reservation": true
+      }
+    },
+    {
+      "id": "1q3u0GmFKRKPV_ikCiCbUw",
+      "alias": "gunshow-atlanta-2",
+      "name": "Gunshow",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ovGkKsLzGF45_KvQXCMqfQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/gunshow-atlanta-2?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1547,
+      "categories": [
+        {
+          "alias": "newamerican",
+          "title": "New American"
+        },
+        {
+          "alias": "southern",
+          "title": "Southern"
+        },
+        {
+          "alias": "bars",
+          "title": "Bars"
+        }
+      ],
+      "rating": 4.2,
+      "coordinates": {
+        "latitude": 33.7407023786913,
+        "longitude": -84.3580284818322
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "924 Garrett St",
+        "address2": "Ste C",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30316",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "924 Garrett St",
+          "Ste C",
+          "Atlanta, GA 30316"
+        ]
+      },
+      "phone": "+14043801886",
+      "display_phone": "(404) 380-1886",
+      "distance": 3004.9440302032167,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1800",
+              "end": "2100",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1800",
+              "end": "2100",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1800",
+              "end": "2100",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1800",
+              "end": "2100",
+              "day": 5
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": false
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "https://gunshowatl.com/atlanta-glenwood-park-gunshow-food-menu",
+        "open24_hours": null,
+        "waitlist_reservation": null
+      }
+    },
+    {
+      "id": "Ln-8CbKGZGmF-GCqMoMcpA",
+      "alias": "bartaco-atlanta-4",
+      "name": "bartaco",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/D1KttSStMui7mR67w_tJzg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bartaco-atlanta-4?adjust_creative=eY8w2UqI6FusGCg0QSNAIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=eY8w2UqI6FusGCg0QSNAIg",
+      "review_count": 1526,
+      "categories": [
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        },
+        {
+          "alias": "tapas",
+          "title": "Tapas Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.77873,
+        "longitude": -84.40932
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "969 Marietta St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30318",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "969 Marietta St NW",
+          "Atlanta, GA 30318"
+        ]
+      },
+      "phone": "+14046078226",
+      "display_phone": "(404) 607-8226",
+      "distance": 3721.2692383396097,
+      "business_hours": [
+        {
+          "open": [
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 0
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 1
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 2
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2300",
+              "day": 3
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 4
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "0000",
+              "day": 5
+            },
+            {
+              "is_overnight": false,
+              "start": "1100",
+              "end": "2200",
+              "day": 6
+            }
+          ],
+          "hours_type": "REGULAR",
+          "is_open_now": true
+        }
+      ],
+      "attributes": {
+        "business_temp_closed": null,
+        "menu_url": "http://www.bartaco.com/menu.html",
         "open24_hours": null,
         "waitlist_reservation": null
       }
     }
   ],
-  "total": 1,
+  "total": 2500,
   "region": {
     "center": {
-      "longitude": 84.3885,
+      "longitude": -84.3885,
       "latitude": 33.7501
     }
   }

@@ -20,7 +20,15 @@ class YelpMockAPI: YelpDataProvider {
     private let decoder = Decoder()
 
     // Implementing the required searchBusiness function from the YelpDataProvider protocol
-    func searchBusinesses(_ location: Coordinates) async throws -> BusinessSearchResponse {
+    func searchBusinesses(_ coordinates: Coordinates) async throws -> BusinessSearchResponse {
+        // Try to get json file for supplied file name
+        guard let url = Bundle.main.url(forResource: stubFileName, withExtension: "json") else { throw URLError(.fileDoesNotExist) }
+        let data = try Data(contentsOf: url)
+        // Attempt to parse and return BusinessSearchResponse object from file
+        return try decoder.decode(BusinessSearchResponse.self, from: data)
+    }
+    
+    func searchBusinesses(_ locationName: String) async throws -> BusinessSearchResponse {
         // Try to get json file for supplied file name
         guard let url = Bundle.main.url(forResource: stubFileName, withExtension: "json") else { throw URLError(.fileDoesNotExist) }
         let data = try Data(contentsOf: url)

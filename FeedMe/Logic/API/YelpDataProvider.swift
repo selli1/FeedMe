@@ -6,5 +6,6 @@
 //
 
 protocol YelpDataProvider {
-    func searchBusinesses(_ location: Coordinates) async throws -> BusinessSearchResponse
+    func searchBusinesses(_ coordinates: Coordinates) async throws -> BusinessSearchResponse
+    func searchBusinesses(_ locationName: String) async throws -> BusinessSearchResponse
 }
